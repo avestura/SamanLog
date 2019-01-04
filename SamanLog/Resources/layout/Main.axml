@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/samanMainItemContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<!--<Button
+    android:id="@+id/samanBtnRefresh"
+    android:text="@string/Refresh"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent" />
+  <TextView
+      android:id="@+id/samanDbContent"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent" />-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/samanFloatButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:saveEnabled="true"
+        android:src="@drawable/ic_add_white_24dp" />
+</android.support.design.widget.CoordinatorLayout>
